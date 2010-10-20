@@ -88,6 +88,7 @@ h2, h3, h4 { color: #431D3F; }
 
 #page #right {
 	width: 600px;
+	margin-left: 50px;
 }
 
 #download {

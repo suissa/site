@@ -33,7 +33,7 @@
 		Você pode ler o Guia de Instalação, ou começar assistindo alguns Screencasts. Ou você pode ir direto para o nosso Guia de Desenvolvimento.
 	</div>
 </div>
-<div id="right" class="right">
+<div id="right" class="left">
 	<div id="about">
 		<div class="title">
 			<?=html::img("igrape.png",'alt="iGrape Framework"')?>
