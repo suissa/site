@@ -1,0 +1,220 @@
+/*
+Theme Name: iGrape Site
+Theme URI: http://igrape.org
+Version: 1.0
+Description: The default theme for new official foreign-language iGrape sites.
+Author: Thiago Avelino
+Design: Diogo Costa
+*/
+
+body { font-size: 14px; color: #333333; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,pre,form,fieldset,input,p,blockquote,table,
+th,td { margin: 0; padding: 0; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,em,h1,h2,h3,
+h4,h5,h6,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+ul { list-style: none; }
+h1, h2, h3, h4, .title, #download, #footer { font-family: 'Cantarell', arial, serif; }
+h2, h3, h4 { color: #431D3F; }
+.title {
+	padding: 20px;
+	color: #893D81;
+	font-size: 20px;
+}
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.hr { background-color: #EBEBEB; height: 5px; margin: 20px; }
+.i { font-style: italic; font-size: 10px; }
+
+#content {
+	margin: 0 auto;
+}
+
+.marg {
+	padding: 15px 10% 0px 10%;
+}
+
+#header{
+	height: 75px;
+	background-color: #000000;
+}
+
+#header ul {
+	list-style:none;
+	margin-top: -50px;
+	margin-left: 200px;
+}
+#header li {
+	float: left;
+	margin-left:10px;
+	padding:10px;
+}
+
+#header ul li :hover {
+	/*background-color: #893D81;*/
+}
+
+#header li a {
+	color: #FFFFFF;
+	font-family: 'Droid Sans', arial, serif;
+}
+
+#prop {
+	background-color: #893D81;
+	color: #FFFFFF;
+}
+
+#prop .left, #prop .right {
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+#prop .right h2 {
+	text-align: center;
+}
+
+#page {
+	padding: 10px 10% 0 10%;
+}
+
+#page #left {
+	width: 320px;
+}
+
+#page #right {
+	width: 600px;
+}
+
+#download {
+	background-color: #EBEBEB;
+	padding: 20px;
+}
+
+#download .get {
+	padding: 5px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.get a {
+	color: #FFF;
+}
+
+.get span {
+	font-size: 30px;
+}
+
+#download .php {
+	background: #0066CC url("../../html/_imagens/getbg.png") 95% no-repeat;
+}
+
+#download .python {
+	background: #006600 url("../../html/_imagens/getbg.png") 95% no-repeat;
+}
+
+#download .ruby {
+	background: #CC0000 url("../../html/_imagens/getbg.png") 95% no-repeat;
+}
+
+#start {
+	border: 2px solid #EBEBEB;
+	margin-top: 20px;
+	padding: 20px;
+	padding-top: 0px;
+}
+
+#blog {
+	color: #FFFFFF;
+	background-color: #333333;
+	margin-top: 20px;
+	padding: 20px;
+	padding-top: 0px;
+}
+
+#blog .title {
+	color: #FFCC00;
+}
+
+#rss {
+	background-color: #FF6600;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	bottom: 0px;
+	right: 0px;
+}
+
+#communit #box {
+	width: 288px;
+	padding: 5px;
+}
+
+#box .title {
+	color: #666666;
+}
+
+#communit .left {
+	border-right: 3px solid #EBEBEB;
+}
+#communit .right a {
+	color: #666666;
+}
+
+#btnGoogle {
+	background-color: #893D81;
+	color: #FFFFFF;
+	height: 35px;
+	width: 100px;
+	border: 0px solid #893D81;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+}
+#txtGoogle {
+	border: 0px solid #FFF;
+	height: 35px;
+	width: 160px;
+	background: #FFFFFF url("../../html/_imagens/txt.png") no-repeat;
+	padding-left: 5px;
+}
+
+#footer {
+	border-top: 4px solid #893D81;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-top: 25px;
+}
+
+.thanks {
+	color: #FFFFFF;
+}
+
+#footer li {
+	float: left;
+	margin-left:10px;
+	padding:10px;
+}
+
+#footer ul li :hover {
+	/*background-color: #893D81;*/
+}
+
+#footer li a {
+	color: #893D81;
+	font-family: 'Droid Sans', arial, serif;
+}
+
+#footer .by {
+	font-size: 10px;
+	text-align: right;
+	margin-top: 70px;
+}

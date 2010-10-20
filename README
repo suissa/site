@@ -1,0 +1,11 @@
+iGrape
+======
+
+Author: iGrape Framework
+License: New BSD License
+Website: http://igrape.org
+Wiki: http://wiki.github.com/igrape/igrape/
+Version: 0.2.2
+
+----
+iGrape Framework is available since 2007 and use the latest three years in various scenarios in production. It is based on solid MVC principles, including separation of display, logic and data layers. It was designed to be efficient, modular and expandable, allow a light balance and a lot of resources in three languages that he works (php, python and ruby).
